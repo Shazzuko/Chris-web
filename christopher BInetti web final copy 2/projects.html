@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-US Compatible" content="IE=edge"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christopher Binetti</title>
+    <link rel="stylesheet" href="web.css">
+</head>
+
+<body>
+    <header>
+        <h2 class="logo"> Christopher Binetti</h2>
+        <nav class="navigation">
+            <a href="index.html">Contact</a>
+            <a href="webResume.html">Resume</a>
+            
+            <a href="projects.html">Projects</a>
+            
+            <button class="btnLogin-pop">Login</button>
+
+        </nav>
+    </header>
+
+    <div class="wrapper">
+
+        <span class="icon-close">        <! –– put X to exit out of login in  ––>
+            <ion-icon name="close"></ion-icon>
+        </span>
+
+
+        <div class="form-box login">
+            <h2>login</h2>
+            <form action="#">
+                
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person-add"></ion-icon></span>  <! –– icon presented ––>
+                    <input type="text" required>
+                    <label>Username</label> 
+                </div>
+
+
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>  <! –– icon presented ––>
+                    <input type="email" required>
+                    <label>Email</label> 
+                </div>
+                <div class="input-box">    <! –– allows for the input ––>
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span> <! –– icon presented ––>
+                    <input type="password" required> <! –– requires password ––>
+                    <label>Password</label> 
+                    <a href="#">Forgot Password?</a>
+
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox"> I agree to the terms & conditions</label>
+                </div>
+                <button type="submit" 
+                class="btn">Login</button>
+                <div class="login-register">
+                    <p>Don't have an account? <a 
+                        href="#" class="register-link">Register</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+                                    <! –– this part is for the login-register  ––>
+
+
+
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person-add"></ion-icon></span>  <! –– icon presented ––>
+                    <input type="text" required>
+                    <label>Username</label> 
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>  <! –– icon presented ––>
+                    <input type="email" required>
+                    <label>Email</label> 
+                </div>
+                <div class="input-box">    <! –– allows for the input ––>
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span> <! –– icon presented ––>
+                    <input type="password" required> <! –– requires password ––>
+                    <label>Password</label> 
+
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox"> I agree to the terms & conditions</label>
+                </div>
+                <button type="submit" 
+                class="btn">Register</button>
+                <div class="login-register">
+                    <p>Don't have an account? <a 
+                    href="#" 
+                    class="login-link">Login</a>
+                    </p>
+                </div>
+            </form>
+        </div>      
+    </div>
+    <! –– projects  ––>
+
+    <div>
+        <h1> Collections of Projects python</h1>
+        <h2 class="small_projects_header">Small Projects</h2>
+        <div class="small_projects">
+            <div class="orangebox">
+                    <h1> Hangman </h1>
+                    <a href="hangman_game/">HangMan</a><!-- Your content goes here -->
+            </div>
+
+            <div class="orangebox">
+                <h2> Blackjack </h2>
+                <a href="black jack/">Black Jack</a>
+                
+            </div>
+
+            <div class="orangebox">
+                <h2> Guess Number</h2>
+                <a href="guess_num/">Guess Number</a>
+            </div>
+            <div class="orangebox">
+                <h2> Coffee machine </h2>
+                <a href="coffee machine/" download>Coffee machine</a>
+                
+            </div>
+            <div class="orangebox">
+                <h2> Mail Merge </h2>
+                <a href="Mail Merge Project Completed/">Mail Merge</a>
+            </div>
+            <div class="orangebox">
+                <h2> Snake Game </h2>
+                <a href="snake-game-part-2-final/" download>Snake Game</a>
+            </div>
+            <div class="orangebox">
+                <h2> Tomato timer</h2>
+                <a href="Solution - pomodoro-end/" download>Tomato Timer</a>
+            </div>
+            <div class="orangebox">
+                <h2> Birthday Reminders</h2>
+                <a href="Solution+-+birthday-wisher-end/" download>Birthday Remember</a>
+            </div>
+            <div class="orangebox">
+                <h2> french flashcards</h2>
+                <a href="Solution+-+flash-card-project-end (1)/" download> French FLashcards</a>
+            </div>
+            <div class="orangebox">
+                <h2> passwords Remember</h2>
+                <a href="Solution+-+password-manager-improved-end/" download> Remember passwords keeper</a>
+            </div>
+            <div class="orangebox">
+                <h2> Pong Game</h2>
+                <a href="Solution+-+pong-game-final/" download>Pong Game</a>
+            </div>
+            <div class="orangebox">
+                <h2> Turtle Race </h2>
+                <a href="Solution+-+turtle-crossing-final/" download>Turtle Race Game</a>
+            </div>
+        </div>
+        <div class="medium_projects">
+            <div class="purple_box">
+                <h2> Tesla stock news Nonification  </h2>
+                <a href="stock-news-tesla-final.py/" download> Tesla Stock New</a>
+            </div> 
+        </div>
+
+
+
+            
+
+    </div>
+
+
+    <script src="web.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
